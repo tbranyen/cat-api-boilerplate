@@ -21,7 +21,7 @@ app.get("/all", function(req, res) {
 });
 
 // Get a specific cat url image
-app.get("/cat/:path", function(req, res) {
+app.get("/img/:path", function(req, res) {
   fs.createReadStream(path.resolve("./cache", req.params.path)).pipe(res);
 });
 
