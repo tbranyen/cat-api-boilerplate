@@ -30,8 +30,8 @@ node api
 
 Once the API server is running, you can access the REST API:
 
-* /all - Will return all Cat images
+* `/all` Will return all Cat images
 
-* /random - Will return a random Cat image
+* `/random` Will return a random Cat image
 
-* /img/src - Will return the actual image so you can embed in an `<img/>` tag.
+* `/img/:src` Will return the actual image so you can embed in an `<img/>` tag.
