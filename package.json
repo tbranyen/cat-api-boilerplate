@@ -8,7 +8,9 @@
     "url": "git://github.com/tbranyen/cat-api-boilerplate.git"
   },
   "dependencies": {
-    "express": "3.0.0alpha1"
+    "express": "~3.0.0",
+    "canvas": "~0.13.1",
+    "kittydar": "~0.1.1"
   },
   "devDependencies": {},
   "optionalDependencies": {},
